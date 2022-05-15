@@ -11,6 +11,8 @@ const Residents = ({url}) => {
     }, [url]);
 
 
+
+    
     return (
         <div className="containerCharacters">
         <div className='characters'>

@@ -11,7 +11,7 @@ const Location = () => {
     const [id, setId] = useState("");
 
     useEffect (() => {
-
+        
         const random = Math.floor(Math.random()*126)+1;
         axios.get(`https://rickandmortyapi.com/api/location/${random}`)
             .then(res => setLocation(res.data));
